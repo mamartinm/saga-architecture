@@ -1,0 +1,172 @@
+# Global .gitignore para proyectos Java, .NET Core, Docker, Terraform, IntelliJ IDEA y VS Code
+# Última actualización: 2026-01-12
+
+########## Generales ##########
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs y temporales
+*.log
+*.tmp
+*.swp
+*.swo
+*.orig
+*.bak
+
+# Entornos
+.env
+.env.*
+*.env
+
+# Credenciales/keys (ajusta según necesidad)
+*.pem
+*.key
+*.crt
+*.p12
+*.keystore
+*.jks
+
+########## Java (Maven/Gradle) ##########
+# Maven
+target/
+.mvn/
+# wrappers
+mvnw
+mvnw.cmd
+
+# Gradle
+.gradle/
+build/
+# wrappers
+gradlew
+gradlew.bat
+.gradle/daemon/
+.gradle/caches/
+.gradle/native/
+.gradle/wrapper/
+
+# Compilados Java
+*.class
+
+# Herramientas Java
+hs_err_pid*
+replay_pid*
+
+########## .NET Core ##########
+# Builds y artefactos
+bin/
+obj/
+
+# Paquetes NuGet
+*.nupkg
+# Fuentes de paquetes
+.nuget/
+# Locks
+project.lock.json
+
+# Herramientas .NET
+*.user
+*.rsuser
+*.suo
+*.userprefs
+
+# Cobertura/pruebas
+TestResult*/
+*.coverage
+*.coveragexml
+
+########## Docker ##########
+# Ignorar archivos de contexto grandes
+**/.dockerignore
+# Volúmenes y datos locales
+docker-data/
+
+# Compose
+**/docker-compose.override.yml
+**/.env.docker
+
+########## Terraform ##########
+# Estado y backups
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+terraform.tfstate
+terraform.tfstate.backup
+
+# Planes
+*.tfplan
+
+# Directorio de trabajo
+.terraform/
+.terraform.lock.hcl
+
+########## IntelliJ IDEA ##########
+# Configuración del proyecto
+.idea/
+# Archivos generados por el IDE
+*.iml
+out/
+
+########## Visual Studio Code ##########
+.vscode/
+# Configs de espacios de trabajo (ajustar si quieres versionarlos)
+.code-workspace
+
+########## Node/NPM/Angular (por si aplica) ##########
+node_modules/
+# Locks (ajusta si quieres versionarlos)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Builds Angular
+saga-architecture-angular/dist/
+
+########## Python (ocasional) ##########
+__pycache__/
+*.pyc
+
+########## Otros ##########
+# Coverage
+coverage/
+
+# IDEs varios
+*.ipr
+*.iws
+
+# Archivos de editor
+*.kate-swp
+*~
+
+# Cache de herramientas
+.cache/
+
+# MacOS temporal
+.AppleDouble
+.LSOverride
+
+# Archivadores
+*.zip
+*.tar
+*.gz
+*.tgz
+*.rar
+
+# Imágenes generadas
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Documentación generada
+site/
+
+# K8s
+**/k8s/.env
+
+# Infra específicas
+saga-architecture-infra/.env
+
+.history

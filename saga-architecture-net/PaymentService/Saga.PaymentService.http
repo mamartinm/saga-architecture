@@ -1,0 +1,6 @@
+@Saga.PaymentService_HostAddress = http://localhost:5093
+
+GET {{Saga.PaymentService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,14 @@
+com/example/saga/common/InventoryRequestDTO.class
+com/example/saga/common/PaymentRequestDTO.class
+com/example/saga/inventory/entity/Product.class
+com/example/saga/common/PaymentEvent.class
+com/example/saga/common/InventoryEvent.class
+com/example/saga/common/OrderRequestDTO.class
+com/example/saga/inventory/service/InventoryService.class
+com/example/saga/common/InventoryStatus.class
+com/example/saga/inventory/repository/ProductRepository.class
+com/example/saga/inventory/controller/InventoryConsumer.class
+com/example/saga/inventory/InventoryServiceApplication.class
+com/example/saga/common/OrderEvent.class
+com/example/saga/common/OrderStatus.class
+com/example/saga/common/PaymentStatus.class

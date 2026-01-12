@@ -1,0 +1,5 @@
+com/example/saga/order/domain/model/OrderTest$StateTransitions.class
+com/example/saga/order/domain/model/OrderTest$ValueObjectsTests.class
+com/example/saga/order/OrderServiceIntegrationTest.class
+com/example/saga/order/domain/model/OrderTest$OrderCreation.class
+com/example/saga/order/domain/model/OrderTest.class

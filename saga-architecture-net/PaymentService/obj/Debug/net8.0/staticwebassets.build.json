@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6+A7a8DmKkmkdonGPZtetuDKMIzPZZ2NGmiaLOMDmyc=",
+  "Source": "Saga.PaymentService",
+  "BasePath": "_content/Saga.PaymentService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

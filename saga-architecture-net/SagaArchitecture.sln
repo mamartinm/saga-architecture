@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.OrderService", "OrderService\Saga.OrderService.csproj", "{C5966539-D3CF-4746-BFA7-00017CD17D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.PaymentService", "PaymentService\Saga.PaymentService.csproj", "{5006564B-8204-46CE-9BB6-D6A97F0E92B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.InventoryService", "InventoryService\Saga.InventoryService.csproj", "{D084AEF8-718B-4ABB-8253-FC84F587CB0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Tests", "OrderService.Tests\OrderService.Tests.csproj", "{63FB09F9-1E4C-487A-825D-D674B170C820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Tests", "PaymentService.Tests\PaymentService.Tests.csproj", "{FDE302EA-C46A-455D-AC86-0114B7CE78D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService.Tests", "InventoryService.Tests\InventoryService.Tests.csproj", "{0CB1ECFF-8D60-4601-9A11-0985203B6B68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5966539-D3CF-4746-BFA7-00017CD17D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5966539-D3CF-4746-BFA7-00017CD17D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5966539-D3CF-4746-BFA7-00017CD17D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5966539-D3CF-4746-BFA7-00017CD17D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5006564B-8204-46CE-9BB6-D6A97F0E92B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5006564B-8204-46CE-9BB6-D6A97F0E92B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5006564B-8204-46CE-9BB6-D6A97F0E92B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5006564B-8204-46CE-9BB6-D6A97F0E92B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D084AEF8-718B-4ABB-8253-FC84F587CB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D084AEF8-718B-4ABB-8253-FC84F587CB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D084AEF8-718B-4ABB-8253-FC84F587CB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D084AEF8-718B-4ABB-8253-FC84F587CB0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63FB09F9-1E4C-487A-825D-D674B170C820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63FB09F9-1E4C-487A-825D-D674B170C820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63FB09F9-1E4C-487A-825D-D674B170C820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63FB09F9-1E4C-487A-825D-D674B170C820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE302EA-C46A-455D-AC86-0114B7CE78D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE302EA-C46A-455D-AC86-0114B7CE78D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE302EA-C46A-455D-AC86-0114B7CE78D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE302EA-C46A-455D-AC86-0114B7CE78D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB1ECFF-8D60-4601-9A11-0985203B6B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB1ECFF-8D60-4601-9A11-0985203B6B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB1ECFF-8D60-4601-9A11-0985203B6B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB1ECFF-8D60-4601-9A11-0985203B6B68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
