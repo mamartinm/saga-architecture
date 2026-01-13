@@ -1,5 +1,0 @@
-databaseChangeLog:
-  - include:
-      file: db/changelog/01-create-inventory-tables.xml
-  - include:
-      file: db/changelog/02-insert-test-data.xml
