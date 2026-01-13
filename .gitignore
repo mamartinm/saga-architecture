@@ -100,7 +100,9 @@ terraform.tfstate.backup
 
 # Directorio de trabajo
 .terraform/
-.terraform.lock.hcl
+
+########## Custom ##########
+**/.wynxx/
 
 ########## IntelliJ IDEA ##########
 # Configuración del proyecto
