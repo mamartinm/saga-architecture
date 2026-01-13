@@ -166,7 +166,5 @@ site/
 # K8s
 **/k8s/.env
 
-# Infra específicas
-saga-architecture-infra/.env
-
 .history
+/**/target/

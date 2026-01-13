@@ -31,4 +31,27 @@
         </addColumn>
     </changeSet>
 
+    <changeSet id="4" author="architect">
+        <createTable tableName="payment_audit_log">
+            <column name="audit_id" type="BIGINT" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="order_id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="event_date" type="DATETIME" defaultValueComputed="CURRENT_TIMESTAMP"/>
+            <column name="message" type="VARCHAR(500)"/>
+            <column name="severity" type="INT"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="5" author="architect">
+        <addForeignKeyConstraint baseTableName="payment_audit_log"
+                                 baseColumnNames="order_id"
+                                 constraintName="fk_audit_payment"
+                                 referencedTableName="payment_transaction"
+                                 referencedColumnNames="order_id"
+                                 onDelete="CASCADE"/>
+    </changeSet>
+
 </databaseChangeLog>
