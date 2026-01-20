@@ -42,4 +42,21 @@ public class InventoryServiceIntegrationTest {
         // Verify stock (Initial was 10 from Liquibase test data)
         assertThat(inventoryRepository.findById(101).get().getAvailableStock()).isEqualTo(9);
     }
+
+    @Test
+    public void testInventoryRejection() throws InterruptedException {
+        // Given
+        UUID orderId = UUID.randomUUID();
+        // Product 102 has 0 stock in test data
+        InventoryRequestDTO request = new InventoryRequestDTO(1, 102, orderId);
+        
+        // When
+        streamBridge.send("inventoryRequestConsumer-in-0", request);
+        
+        // Then
+        Thread.sleep(2000);
+        
+        // Verify stock remains 0
+        assertThat(inventoryRepository.findById(102).get().getAvailableStock()).isEqualTo(0);
+    }
 }
